@@ -43,7 +43,7 @@ def using_flatten(array)
 end
 
 def using_delete_at (array, num)
-  num = num.to_i
+  num.to_i
   puts num
   puts array
   array.delete_at(array.find_index(num))
