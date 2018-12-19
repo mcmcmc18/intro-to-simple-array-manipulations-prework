@@ -44,7 +44,7 @@ end
 
 def using_delete_at (array, num)
   num.to_i
-  print num
-  print array
+  puts num
+  puts array
   array.delete_at(array.find_index(num))
 end
