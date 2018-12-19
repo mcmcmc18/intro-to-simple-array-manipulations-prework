@@ -43,6 +43,5 @@ def using_flatten(array)
 end
 
 def using_delete_at (array, num)
-  num.to_i
   array.delete_at(array[num])
 end
